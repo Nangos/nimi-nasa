@@ -53,4 +53,4 @@ Nevertheless, *this webpage can be seen as **inspiring** you to view a word from
 
 I am *jan pi nimi ala* on [Reddit](https://www.reddit.com/user/daniel_nango). Feel free to share your suggestions and ideas!
 
-The project's source code will be released on GitHub soon. For specific issues and feedbacks, it would be best to visit the GitHub repository.
+The project's source code is released on [GitHub](https://github.com/Nangos/nimi-nasa/). For specific issues and feedbacks, it would be best to visit the GitHub repository.
