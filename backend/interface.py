@@ -73,7 +73,8 @@ def dislike(word: str):
         "success": True,
     })
 
-
-# To run the server:
-# curl ifconfig.me  # to get the IP address
-# flask --app interface run --host=???.???.???.??? --port=?????
+if __name__ == "__main__":
+    with open("config.txt") as f:
+        cert_file, key_file, hostname = f.read().splitlines()
+    context = (cert_file, key_file)
+    app.run(host=hostname, port=443, ssl_context=context)
