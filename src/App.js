@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import axios from 'axios';
 import sampleData from './sample.json';
 import dictionary from './dictionary.json';
+import hostname from './hostname.json';
 
 function App() {
   const [data, setData] = useState(sampleData);
@@ -38,11 +39,11 @@ function App() {
   const [noConnection, setNoConnection] = useState(false);
 
   const spanRef = useRef();
-  const host = "http://129.105.15.197:4098"
+  const host = hostname;
 
   const queryRef = useRef();
   queryRef.current = query;
-  
+
   // execute the following two functions whenever `query` is initialized or updated:
   useEffect(() => {
     fetch(`${host}/toki/${queryRef.current}?k1=${maxKWan}&k2=${maxKTu}&k3=${maxKAle}`)
