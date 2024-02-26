@@ -1,8 +1,70 @@
 .App {
   text-align: center;
+  /* background-color: #282c34;
+  color: white; */
 }
 
-.App-logo {
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  font-size: 40px;
+  font-family: fantasy;
+  /* color: white; */
+}
+
+.Query-box {
+  font-size: 40px;
+  font-family: fantasy;
+  background-color:#404040;
+  color:ivory;
+  /* width: 800px; */
+  width: min-content; 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.topk-box {
+  background-color: #404040;
+  color: ivory;
+  font-weight: bold;
+  font-size: 16px;
+  width: 35px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+}
+
+.Tp-word {
+  font-size: large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.like-button {
+  cursor: pointer;
+  background-color: #404040;
+}
+
+.md-container {
+  max-width: 800px;
+  text-align: left;
+  margin: 60px auto;
+}
+
+.md-container a {
+  color: skyblue;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,20 +73,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
+/* .App-link {
   color: #61dafb;
 }
 
@@ -35,4 +86,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
