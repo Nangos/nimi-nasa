@@ -54,7 +54,8 @@ function App() {
   useEffect(() => {
     if (spanRef.current) {
       let width = spanRef.current.offsetWidth;
-      spanRef.current.previousSibling.style.width = `${width < 40? 40: width}px`;
+      let minWidth = window.innerWidth * 0.06 > 40? 40 : window.innerWidth * 0.06;
+      spanRef.current.previousSibling.style.width = `${width < minWidth? minWidth: width}px`;
     }
   }, [query]);
 
@@ -262,7 +263,7 @@ function App() {
     return (
       <div>
         {renderNimi(nimi)}
-        <div style={{ display: "flex", justifyContent: "center" }} >
+        <div className='scrollable-div'>
           <span style={{ marginLeft: '0px', marginRight: '15px' }}>{renderNimiWan(data)}</span>
           <span style={{ marginLeft: '15px', marginRight: '15px' }}>{renderNimiTu(data)}</span>
           <span style={{ marginLeft: '15px', marginRight: '0px' }}>{renderNimiAle(data)}</span>
