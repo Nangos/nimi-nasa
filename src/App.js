@@ -68,22 +68,22 @@ function App() {
   }
 
   const onKWanChange = (event) => {
-    if (event.target.value < 1 || event.target.value > maxKWan) {
-      return;
-    }
-    setKWan(event.target.value);
+    let newValue = event.target.value;
+    if (newValue < 1) { newValue = 1; }
+    if (newValue > maxKWan) { newValue = maxKWan; }
+    setKWan(newValue);
   }
   const onKTuChange = (event) => {
-    if (event.target.value < 1 || event.target.value > maxKTu) {
-      return;
-    }
-    setKTu(event.target.value);
+    let newValue = event.target.value;
+    if (newValue < 1) { newValue = 1; }
+    if (newValue > maxKTu) { newValue = maxKTu; }
+    setKTu(newValue);
   }
   const onKAleChange = (event) => {
-    if (event.target.value < 1 || event.target.value > maxKAle) {
-      return;
-    }
-    setKAle(event.target.value);
+    let newValue = event.target.value;
+    if (newValue < 1) { newValue = 1; }
+    if (newValue > maxKAle) { newValue = maxKAle; }
+    setKAle(newValue);
   }
 
   const onMouseEnterFactory = (nimi) => {
@@ -95,14 +95,14 @@ function App() {
   const likeFactory = (word, task_id, answer) => {
     return () => {
       axios.post(`${host}/like/${word}?task_id=${task_id}&answer=${answer}`)
-        .then((res) => console.log(res))
+        .then((res) => { console.log(res); alert("Thanks for your feedback!"); })
         .catch((error) => console.log(error));
     }
   }
   const dislikeFactory = (word, task_id, answer) => {
     return () => {
       axios.post(`${host}/dislike/${word}?task_id=${task_id}&answer=${answer}`)
-        .then((res) => console.log(res))
+        .then((res) => { console.log(res); alert("Thanks for your feedback!"); } )
         .catch((error) => console.log(error));
     }
   }
