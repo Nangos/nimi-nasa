@@ -45,7 +45,7 @@ Moreover, maybe a Toki Pona word itself needs multiple vectors, even if there ju
 - In contrast, when used as a noun, *telo* is almost just "water" in its entirety.
 - On the other side, when used as a verb (e.g. "wash, shower"), *telo* actually involves more than "water"! For example, it may also share meanings with *pona* (for the "goodness" of cleaning) and *tawa* (for the use of "running" water). This sounds like its meaning is "strengthened".
 
-Many other problems may exist! That's why these *like* and *unlike* buttons exist. With just a simple click, your **anonymous** feedback will be sent to the server (and the *me* curiously waiting behind)!
+Many other problems may exist! That's why these *like* and *dislike* buttons exist. With just a simple click, your **anonymous** feedback will be sent to the server (and the *me* curiously waiting behind)!
 
 Nevertheless, *this webpage can be seen as **inspiring** you to view a word from a new perspective, instead of providing some sort of "standard answer".* Have fun playing around!
 

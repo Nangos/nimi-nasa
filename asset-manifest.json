@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nimi-nasa/static/css/main.fcee0017.css",
-    "main.js": "/nimi-nasa/static/js/main.2002e692.js",
+    "main.js": "/nimi-nasa/static/js/main.a67d2f7c.js",
     "static/js/453.69fca9d5.chunk.js": "/nimi-nasa/static/js/453.69fca9d5.chunk.js",
     "index.html": "/nimi-nasa/index.html",
     "main.fcee0017.css.map": "/nimi-nasa/static/css/main.fcee0017.css.map",
-    "main.2002e692.js.map": "/nimi-nasa/static/js/main.2002e692.js.map",
+    "main.a67d2f7c.js.map": "/nimi-nasa/static/js/main.a67d2f7c.js.map",
     "453.69fca9d5.chunk.js.map": "/nimi-nasa/static/js/453.69fca9d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcee0017.css",
-    "static/js/main.2002e692.js"
+    "static/js/main.a67d2f7c.js"
   ]
 }
